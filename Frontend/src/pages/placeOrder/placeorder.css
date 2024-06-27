@@ -1,0 +1,44 @@
+.orderplace{
+   background-image: url(../../assets/foodbg2.jpeg);
+   background-repeat:repeat;
+   
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.selecttable{
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px ;
+    font-size: 20px;
+}
+.order-left .options{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+}
+.order-left .pay-bill button{
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px ;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.order-left .pay-bill button:hover{
+    
+  background-color: rgb(227, 227, 153);
+}
+.order-right .cart-total-details{
+    padding: 10px 2px;
+}
+.order-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
